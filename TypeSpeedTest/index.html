@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Typing Speed Test Game</h1>
+    </header>
+    <div class="app-container">
+        <div class="level-choices">
+            <button class="easy">Easy</button>
+            <button class="medium">Medium</button>
+            <button class="hard">Hard</button>
+        </div>
+      <div class="level-info">
+        You Are Playing On&nbsp;<span class="level-type"></span>&nbsp;Level & You
+        have&nbsp;<span class="level-duration"></span>&nbsp;Seconds for each word
+      </div>
+      <h1 class="the-word">Type to Start</h1>
+      <input type="text" class="input-word" />
+      <div class="words">
+
+      </div>
+      <div class="status">
+        <div class="time">
+          Time Left: <span class="time-left">3</span> Seconds
+        </div>
+        <div class="score">
+            Score: <span class="current-score">2</span> From <span class="total-score">30</span>
+        </div>
+      </div>
+      <div class="end-game">
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
